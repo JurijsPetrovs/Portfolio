@@ -14,8 +14,33 @@
   <title>Portfolio</title>
 </head>
 <body>
-  <div class="row">
-    <div class="col-12 col-xl-3 mb-3">
+  <header id="header" class="col-12 d-flex">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link hover active" aria-current="page" href="/index.html">Main page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover" href="diploma.html">Diploma & Certificate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main class="row">
+    <div class="col-12 col-xl-3 col-md-4 mb-3">
       <div class="user text-center rounded">
         <div class="user-main rounded rounded-bottom-0">
           <div class="photo">
@@ -24,23 +49,20 @@
           <h3>Jurijs Petrovs</h3>
           <p>Front End Developer</p>
           <div class="social">
+            
             <a href="https://t.me/Jp_onepass" target="_blank"><i class="fa-brands fa-telegram"></i></a>
             <a href="https://www.facebook.com/jurijs.petrovs" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com/jurciks_p/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           </div>
         </div>
         <div class="user-footer rounded rounded-top-0">
-          <a href="#" class="btn">Download CV</a>
+          <a href="mailto:petrovsjurijs@gmail.com" class="btn">Email me <i class="fa-regular fa-envelope"></i></a>
         </div>
       </div>
     </div>
 
-    <div class="col-12 col-xl-8">
-      <div class="about rounded">
-        <h1>Hello it's Jurijs Petrovs</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste aut voluptates architecto repudiandae laborum. Est reiciendis, laudantium odio iste facere magnam quasi quos aperiam recusandae dolore! Explicabo porro natus ullam!</p>
-      </div>
-      
+    
+    <div class="col-12 col-xl-9 col-md-8">
       <div>
         <div id="info" class="row rounded">
           <div class="col info">
@@ -62,10 +84,6 @@
                 <th>E-mail</th>
                 <td>petrovsjurijs@gmail.com</td>
               </tr>
-              <tr>
-                <th>Phone</th>
-                <td>+37125523571</td>
-              </tr>
             </table>
           </div>
           <div class="col lang">
@@ -76,11 +94,6 @@
                 <div class="cirkle"></div>
                 <div class="cirkle"></div>
                 <div class="cirkle"></div>
-                <!-- <div class="cirkle"></div>
-                <div class="cirkle"></div>
-                <div class="cirkle"></div>
-                <div class="cirkle"></div> -->
-                <!-- <div class="empty"></div> -->
                 <div class="empty"></div>
                 <div class="empty"></div>
                 <p>fluent</p>
@@ -94,12 +107,7 @@
                 <div class="cirkle"></div>
                 <div class="cirkle"></div>
                 <div class="cirkle"></div>
-                <!-- <div class="cirkle"></div>
-                <div class="cirkle"></div>
-                <div class="cirkle"></div>
-                <div class="cirkle"></div>
-                <div class="cirkle"></div> -->
-                <p>fluent</p>
+                <p>native</p>
               </div>
             </div>
             <div class="lv-wrapper">
@@ -110,11 +118,6 @@
                 <div class="cirkle"></div>
                 <div class="cirkle"></div>
                 <div class="cirkle"></div>
-                <!-- <div class="cirkle"></div>
-                <div class="cirkle"></div>
-                <div class="cirkle"></div>
-                <div class="cirkle"></div>
-                <div class="cirkle"></div> -->
                 <p>native</p>
               </div>
             </div>
@@ -215,26 +218,28 @@
                 <h5>Working with Git</h5>
               </div>
             </div>
+            <div class="col-12">
+              <h4>Additional education:</h4>
+              <ul>
+                  <li>Passed the course "Profession Front-end" at itProger school.
+                  </li>
+                  <li>Passed the course "Creating a cool web page" at itProger school.
+                  </li>
+              </ul><br>
+
+              <h4>Additional Information:</h4>
+              <p>Excellent knowledge of PC and Windows/MacOs at the advanced user level.</p>
+              <p>Proficiency in English at the level of reading and using technical documentation with a dictionary.</p>
+            </div>
           </div>
         </div>
       
       </div>
     </div>
+  </main>
 
-    <div class="contact col-12 d-flex justify-content-center col-xl-1 d-xl-block">
-      <div class="wraper">
-        <a href="index.html"><i class="fa-regular fa-note-sticky"></i></a>
-        
-      </div>
-      <div class="wraper">
-        <a href=""><i class="fa-sharp fa-solid fa-suitcase"></i></a>
-      </div>
-      <div class="wraper">
-        <a href="mailto:petrovsjurijs@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-      </div>
-    </div>
-  </div>
-
-
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="js/index.min.js"></script>
 </body>
 </html>
